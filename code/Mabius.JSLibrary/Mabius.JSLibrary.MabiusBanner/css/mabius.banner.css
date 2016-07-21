@@ -1,0 +1,8 @@
+﻿.mabius-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.mabius-banner-item {
+    position: absolute;
+}

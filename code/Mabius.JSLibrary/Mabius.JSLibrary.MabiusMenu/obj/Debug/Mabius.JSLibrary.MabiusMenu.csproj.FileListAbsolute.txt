@@ -1,0 +1,6 @@
+D:\projects\mabius\js library\code\Mabius.JSLibrary\Mabius.JSLibrary.MabiusMenu\bin\Mabius.JSLibrary.MabiusMenu.dll.config
+D:\projects\mabius\js library\code\Mabius.JSLibrary\Mabius.JSLibrary.MabiusMenu\bin\Mabius.JSLibrary.MabiusMenu.dll
+D:\projects\mabius\js library\code\Mabius.JSLibrary\Mabius.JSLibrary.MabiusMenu\bin\Mabius.JSLibrary.MabiusMenu.pdb
+D:\projects\mabius\js library\code\Mabius.JSLibrary\Mabius.JSLibrary.MabiusMenu\obj\Debug\Mabius.JSLibrary.MabiusMenu.csprojResolveAssemblyReference.cache
+D:\projects\mabius\js library\code\Mabius.JSLibrary\Mabius.JSLibrary.MabiusMenu\obj\Debug\Mabius.JSLibrary.MabiusMenu.dll
+D:\projects\mabius\js library\code\Mabius.JSLibrary\Mabius.JSLibrary.MabiusMenu\obj\Debug\Mabius.JSLibrary.MabiusMenu.pdb

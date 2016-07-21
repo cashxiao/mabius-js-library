@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../js/mabius.menu.js"></script>
+    <link href="../css/mabius.menu.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .menu {
+            width: 1200px;
+            height: 55px;
+        }
+
+        .m1 {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-01-normal.png);
+        }
+
+        .m1-selected {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-01-selected.png);
+        }
+
+        .m2 {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-02-normal.png);
+        }
+
+        .m2-selected {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-02-selected.png);
+        }
+
+        .m3 {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-03-normal.png);
+        }
+
+        .m3-selected {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-03-selected.png);
+        }
+
+        .m4 {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-04-normal.png);
+        }
+
+        .m4-selected {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-04-selected.png);
+        }
+
+        .m5 {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-05-normal.png);
+        }
+
+        .m5-selected {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-05-selected.png);
+        }
+
+        .m6 {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-06-normal.png);
+        }
+
+        .m6-selected {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-06-selected.png);
+        }
+
+        .m7 {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-07-normal.png);
+        }
+
+        .m7-selected {
+            width: 166px;
+            height: 55px;
+            background-image: url(images/menu-07-selected.png);
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var menu = $('.menu').mabiusMenu({
+                items: [
+                    $('<div></div>').mabiusMenuItem({ lostFocusClass: 'm1', focusClass: 'm1-selected' }),
+                    $('<div></div>').mabiusMenuItem({ lostFocusClass: 'm2', focusClass: 'm2-selected' }),
+                    $('<div></div>').mabiusMenuItem({ lostFocusClass: 'm3', focusClass: 'm3-selected' }),
+                    $('<div></div>').mabiusMenuItem({ lostFocusClass: 'm4', focusClass: 'm4-selected' }),
+                    $('<div></div>').mabiusMenuItem({ lostFocusClass: 'm5', focusClass: 'm5-selected' }),
+                    $('<div></div>').mabiusMenuItem({ lostFocusClass: 'm6', focusClass: 'm6-selected' }),
+                    $('<div></div>').mabiusMenuItem({ lostFocusClass: 'm7', focusClass: 'm7-selected' })
+                ],
+                bar: $('<div></div>').css({ 'width': '166px', 'background-color': 'red' })
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="menu"></div>
+</body>
+</html>
